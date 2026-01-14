@@ -18,7 +18,8 @@ upstream = "https://gitlab.com/USCiLab/cereal"
 configure-args = [
   "-DBUILD_SANDBOX=OFF",
   "-DSKIP_PERFORMANCE_COMPARISON=ON",
-  "-DSKIP_PORTABILITY_TEST=ON"
+  "-DSKIP_PORTABILITY_TEST=ON",
+  "-DWITH_WERROR=OFF"
 ]
 has-binaries = false
 has-sitelib = false
