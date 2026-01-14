@@ -15,6 +15,7 @@ repository = "https://github.com/cmake-wheel/cmeel-cereal.git"
 upstream = "https://gitlab.com/USCiLab/cereal"
 
 [tool.cmeel]
+build-number = 0
 configure-args = [
   "-DBUILD_SANDBOX=OFF",
   "-DSKIP_PERFORMANCE_COMPARISON=ON",
