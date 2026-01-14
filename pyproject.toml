@@ -16,6 +16,7 @@ upstream = "https://gitlab.com/USCiLab/cereal"
 
 [tool.cmeel]
 configure-args = [
+  "-DBUILD_SANDBOX=OFF",
   "-DSKIP_PERFORMANCE_COMPARISON=ON",
   "-DSKIP_PORTABILITY_TEST=ON"
 ]
